@@ -113,4 +113,3 @@ Then open the local URL, upload `test_data.csv`, and select a model.
 
 ---
 
-*Models trained and evaluated in Google Colab; final execution performed on BITS Virtual Lab (screenshot in submission). Dataset: UCI Dry Bean Dataset.*
