@@ -88,18 +88,18 @@ The deployed app provides:
 
 ```
 drybean-ml-classifier-sarasan/
-├── app.py                 # Streamlit web application
-├── requirements.txt       # dependencies
-├── README.md              # this file
-├── test_data.csv          # held-out test split (used by the app)
-└── model/                 # saved artifacts
+├── app.py                              # Streamlit web application
+├── requirements.txt                    # dependencies
+├── README.md                           # this file
+├── test_data.csv                       # held-out test split (used by the app)
+├── 2025AC05064_ML_Assignment2.ipynb    # training + evaluation notebook
+└── model/                              # saved model files (.pkl)
     ├── scaler.pkl
     ├── logistic_regression.pkl
     ├── decision_tree.pkl
     ├── knn.pkl
     ├── naive_bayes.pkl
-    ├── random_forest.pkl
-    └── drybean_classifier.ipynb   # training + evaluation notebook
+    └── random_forest.pkl
 ```
 
 ## How to run locally
